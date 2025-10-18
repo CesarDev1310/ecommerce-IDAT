@@ -1,11 +1,28 @@
+.centrar {
+  text-align: center;
+  color: #6d6f70;
+}
 
+.btn-success {
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(237, 221, 83, 1) 100%
+  );
+}
 
-.formulario{
-    border: 1px solid rgba(124, 119, 119, 0.166);
-    border-radius: 10px;
-    padding: 3% 10% 3% 10%;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin: 3% 20% 3% 20%;
-    box-shadow: 5px 5px 10px rgb(201, 197, 197);
+.btn-success:hover{
+    color: brown;
+}
+
+.formulario {
+  border: 1px solid rgba(124, 119, 119, 0.166);
+  border-radius: 10px;
+  padding: 3% 10% 3% 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin: 3% 20% 3% 20%;
+  box-shadow: 5px 5px 10px rgb(201, 197, 197);
 }
